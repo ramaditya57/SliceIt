@@ -21,3 +21,27 @@ a{
   width: 80%;
   margin: auto;
 }
+
+/* Add these styles to your index.css */
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  position: relative;
+  display: block;
+  width: 100%;
+  z-index: 1;
+  padding: 1rem 0;
+}
+
+/* Make sure content is visible and not hidden by other elements */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
